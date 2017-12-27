@@ -1,0 +1,35 @@
+/*body properties*/
+.body {
+  display: inline-block;
+  text-align: center;
+  background-color: gray;
+  cursor: pointer;
+  font-family:"serif";
+}
+/*failsafe for viewport width*/
+img, embed, object, video {
+  max-width: 100%;
+}
+/*logo properties*/
+.logo {
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px black;
+  display: inline-block;
+}
+/*title_bar properties*/
+.title_bar {
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px black;
+  display: inline-block;
+}
+/*container_projects properties*/
+#container {  
+  display: inline-flex;
+}
+.projects {
+  display:inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px black;
+}
